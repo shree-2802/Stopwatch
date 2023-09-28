@@ -1,0 +1,95 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  position: absolute;
+  top: 0;
+}
+.bg {
+  background-image: url("./images/backgroundimage.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  margin: 0;
+}
+.content {
+  backdrop-filter: blur(2px);
+  -webkit-box-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 1);
+  border-style: none;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 300px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.clockElements {
+  display: flex;
+  column-gap: 20px;
+}
+.hr,
+.min,
+.sec,
+.semi {
+  font-size: 30px;
+  color: rgb(221, 219, 219);
+}
+.buttonBox {
+  display: flex;
+  column-gap: 25px;
+}
+.play {
+  height: 50px;
+  border-radius: 100%;
+
+  transform: scale(1.3);
+}
+.css-pause-button {
+  align-items: top;
+}
+.pause-play {
+  transform: scale(2.3);
+  object-position: top;
+  display: flex;
+}
+.css-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+}
+.css-pause {
+  padding-top: 2px;
+  padding-right: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: top;
+  transform: scale(1.7);
+}
+.css-pause-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+  border-style: none;
+}
